@@ -11,9 +11,9 @@
         <ul>
             <?php foreach ($errors as $message): ?>
                 <li><?= $message ?></li>
-            <?php endforeach ?>
+            <?php endforeach; ?>
         </ul>
-    <?php endif ?>   
+    <?php endif; ?>   
     <form action="" method="POST">
         <label for="title">Title</label>
         <input type="text" name="title" id="title" required placeholder="Iles flottantes">

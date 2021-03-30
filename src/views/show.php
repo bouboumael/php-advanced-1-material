@@ -8,7 +8,6 @@
     <body>
         <a href="/">Home</a>
         <h1><?= $recipe['title'] ?></h1>
-
         <div>
             <?= $recipe['description'] ?>
         </div>

@@ -14,7 +14,7 @@
                     <?= $recipe['title'] ?>
                 </a>
             </li>
-            <?php endforeach ?>
+            <?php endforeach; ?>
         </ul>
         <button><a href="add.php">New recipes</a></button>
     </body>
